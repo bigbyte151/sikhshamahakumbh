@@ -100,7 +100,7 @@ const RegistrationPage = () => {
             onChange={handleEventChange}
             className="block w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring focus:ring-purple-300 focus:border-purple-500 shadow-sm transition duration-200"
           >
-            <option value="ShikshaMahakumbh2">Shiksha Mahakumbh 5.0</option>
+            <option value="ShikshaMahakumbh5">Shiksha Mahakumbh 5.0</option>
             {/* <option value="ShikshaMahakumbh3">Shiksha Mahakumbh 3.0</option> */}
           </select>
         </div>
