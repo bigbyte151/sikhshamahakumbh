@@ -88,18 +88,18 @@ export default function RootLayout({
         {children}
 
         {/* Modal Component */}
-        {/* <Modal isOpen={isModalOpen} onClose={closeModal}>
+        <Modal isOpen={isModalOpen} onClose={closeModal}>
           <div className="text-white p-4 rounded-lg flex flex-col items-center justify-center text-center text-base md:text-xl font-semibold bg-primary">
             <p>
-          <strong>शिक्षा महाकुंभ 2.0 </strong>was successfully concluded at Kurukshetra University from December 16-17, 2024. <strong> To download photographs click here</strong>:
+          <strong>शिक्षा महाकुंभ अभियान</strong>5th Edition is going to be held at NIPER, Mohali from 31st October to 2nd November 2025 <strong> Register Now</strong>:
             </p>
             <p>
-             <a href="https://drive.google.com/drive/folders/1XnauGu1-dQ2KCpTzvIMHhUwlBF-6GDEN" className="text-white">
+             <a href="https://shikshamahakumb.co.in/" className="text-white">
                 Link
              </a>
             </p>
           </div>
-        </Modal> */}
+        </Modal>
 
 
 
