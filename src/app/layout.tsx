@@ -91,11 +91,11 @@ export default function RootLayout({
         <Modal isOpen={isModalOpen} onClose={closeModal}>
           <div className="text-white p-4 rounded-lg flex flex-col items-center justify-center text-center text-base md:text-xl font-semibold bg-primary">
             <p>
-          <strong>शिक्षा महाकुंभ अभियान</strong>5th Edition is going to be held at NIPER, Mohali from 31st October to 2nd November 2025 <strong> Register Now</strong>:
+          <strong>शिक्षा महाकुंभ अभियान</strong><br/>5th Edition is going to be held at NIPER, Mohali from 31st October to 2nd November 2025 :
             </p>
             <p>
-             <a href="https://shikshamahakumb.co.in/registration" className="text-white">
-                Link
+             <a href="https://shikshamahakumb.co.in/registration" className="text-white button-me">
+               <strong> Register Now</strong>
              </a>
             </p>
           </div>
