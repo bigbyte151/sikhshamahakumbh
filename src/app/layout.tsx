@@ -94,7 +94,7 @@ export default function RootLayout({
           <strong>शिक्षा महाकुंभ अभियान</strong>5th Edition is going to be held at NIPER, Mohali from 31st October to 2nd November 2025 <strong> Register Now</strong>:
             </p>
             <p>
-             <a href="https://shikshamahakumb.co.in/" className="text-white">
+             <a href="https://shikshamahakumb.co.in/registration" className="text-white">
                 Link
              </a>
             </p>
