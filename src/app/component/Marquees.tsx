@@ -25,10 +25,6 @@ const items: Item[] = [
 
 
   
-
-
- 
-
   {
     imageUrl: "/new.gif",
     text: "Baton Ceremony: A Grand Start to Shiksha Mahakumbh 2.0! Witness the Baton Ceremony's success, Click Here.",
@@ -39,16 +35,21 @@ const items: Item[] = [
     text: "शिक्षा महाकुंभ-2024 (द्वितीय संस्करण),आवासीय अभ्यास वर्ग – सफलता की ओर एक और कदम, Click Here.",
     link: "https://www.rase.co.in/Press3",
   },
+  {
+    imageUrl: "/new.gif",
+    text: "शिक्षा महाकुंभ अभियान – 5th Edition is going to be held at NIPER, Mohali from 31-10-25 to 2-11-25",
+    link: "https://shikshamahakumb.co.in/registration",
+  },
 ];
 
 const Marquees: React.FC = () => {
   return (
-    <div className="bg-[#f5f0e7] flex">
+    <div style={{zIndex:10}} className="bg-[#f5f0e7] flex">
       <div className="bg-[#232323] p-2 text-base font-bold text-white">
         Annoucement
       </div>
       <Marquee pauseOnHover={true} pauseOnClick={true}>
-        <div className="flex flex-wrap pt-2 ">
+        <div  className="flex flex-wrap pt-2 z-[0]">
           {items.map((item, index) => (
             <div key={index} className="flex items-center mb-4 ms-4">
               <img

@@ -30,6 +30,12 @@ export default function RootLayout({
     setIsModalOpen(false);
   };
 
+  useEffect(()=>{
+    setTimeout(() => {
+      setIsModalOpen(false)
+    }, 8000);
+  },[])
+
   // Handle microphone permissions
   const handlePermission = async () => {
     try {
@@ -89,14 +95,14 @@ export default function RootLayout({
 
         {/* Modal Component */}
         <Modal isOpen={isModalOpen} onClose={closeModal}>
-          <div className="text-white p-4 rounded-lg flex flex-col items-center justify-center text-center text-base md:text-xl font-semibold bg-primary">
-            <p>
-          <strong>शिक्षा महाकुंभ अभियान</strong><br/>5th Edition is going to be held at NIPER, Mohali from 31st October to 2nd November 2025 :
+          <div style={{zIndex:999}} className="text-white z-40 p-4 rounded-lg flex flex-col items-center justify-center text-center text-base md:text-xl font-semibold bg-primary">
+            <p className='mb-4'>
+              <strong>शिक्षा महाकुंभ अभियान</strong><br />5th Edition is going to be held <br></br> at NIPER, Mohali <br />from 31st October to 2nd November 2025 :
             </p>
             <p>
-             <a href="https://shikshamahakumb.co.in/registration" className="px-4 my-2 py-2 bg-white text-red-600 rounded hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-blue-400">
-               <strong> Register Now</strong>
-             </a>
+              <a href="https://shikshamahakumb.co.in/registration" className="px-4 my-2 mt-4 py-2 bg-white text-red-600 rounded hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-blue-400">
+                <strong> Register Now</strong>
+              </a>
             </p>
           </div>
         </Modal>
