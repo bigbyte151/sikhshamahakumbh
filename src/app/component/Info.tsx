@@ -21,6 +21,7 @@ At the heart of Shiksha Mahakumbh Abhiyan lies an ambitious yet grounded vision:
 •	Promotion of ethical, sustainable, and local-context education
 
 Each edition of the Mahakumbh is designed not just for discussion but to generate actionable insights, policy roadmaps, and community-driven solutions. Each edition of the Abhiyan builds upon the outcomes of the previous, weaving a continuous thread of innovation, implementation, and impact:
+
 <b>🔹 1st Edition – NIT Jalandhar | 9th–11th June 2023</b>
 <span style="margin-left:25px">Theme: Recent Advances in School Education (RASE)</span>
 <span style="margin-left:25px">Impact: Initiated national dialogue on foundational reforms, introduced community-driven school models, and generated a best practices compendium on K–12 innovations.</span>
@@ -55,9 +56,7 @@ Each edition of the Mahakumbh is designed not just for discussion but to generat
 
 This whole-of-society approach ensures that reforms are not only visionary but also practical, inclusive, and community-driven. The Shiksha Mahakumbh Abhiyan is a clarion call to every citizen, policymaker, and thought leader.
 
-
-
-  `
+`
 
   const [isTextExpanded, setIsTextExpanded] = useState(false);
   const [isMobile, setIsMobile] = useState(true); // Default to mobile layout
@@ -107,7 +106,7 @@ This whole-of-society approach ensures that reforms are not only visionary but a
         
         <button
           onClick={toggleText}
-          className={`text-[#502a2a] font-bold mt-2`}
+          className={`text-[#502a2a] font-bold mt-1`}
         >
           {isTextExpanded ? 'Show Less' : 'Read More'}
         </button>
