@@ -125,7 +125,7 @@ This whole-of-society approach ensures that reforms are not only visionary but a
   return (
     <div className="bg-white px-4 py-2 flex flex-col justify-between items-start">
       <h1 className={`${textClassHeading} py-2 text-[#502a2a] font-bold text-2xl`}>
-        About Shiksha Mahakumbh Abhiyan
+        {/* शिक्षा महाकुंभ अभियान: A National Movement for Global Educational Transformation */}
       </h1>
       <div className={`mb-4 whitespace-pre-line text-justify text-black`}>
         <div
