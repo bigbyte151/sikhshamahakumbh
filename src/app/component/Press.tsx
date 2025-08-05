@@ -28,6 +28,14 @@ const Proceedings: React.FC = () => {
 
   const cardData = [
     {
+      title: `DHE एवं NIPER मोहाली के मध्य शिक्षा महाकुंभ अभियान के पंचम संस्करण के लिए MoU हुया सम्पन्न `,
+      description: `शिक्षा को एक वैश्विक मंच प्रदान करते हुए सशक्त शिक्षा तंत्र बनाने में योगदान के उद्देश्य से आयोजित किए जाने वाले "शिक्षा महाकुंभ अभियान" के पंचम संस्करण को लेकर एक महत्वपूर्ण MoU शिक्षा महाकुंभ अभियान के पालक संस्थान डिपार्टमेंट `,
+      image: '/press/press10.jpg',
+      // previewLink: '/Press1.pdf',
+      // downloadLink: '/Press1.pdf',
+      readLink: '/press10' // Link to the TSX file or page
+    },
+    {
       title: `Shiksha Mahakumbh 2024 begins at Kurukshetra University`,
       description: `Human behaviour has indispensable role in Indian education: Swami Gyananand
 Entrepreneurship cells must be established in Higher Education: Sah Sanghatak Satish Kumar `,

@@ -48,6 +48,15 @@ const NavBar: React.FC = () => {
     },
     {
       path: "/",
+      title: "Programmes",
+      subMenu: [
+        
+        { path: "/shiksha-mahakumbh-2025", title: "Shiksha Mahakumbh 2025" },
+        
+      ],
+    },
+    {
+      path: "/",
       title: "Gallery",
       subMenu: [
         { path: "/gallery", title: "Photos" },
