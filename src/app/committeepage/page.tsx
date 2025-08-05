@@ -3,6 +3,7 @@ import React from "react";
 import CompanyInfo from "../component/CompanyInfo";
 import NavBar from "../component/NavBar";
 import Footer from "../component/Footer";
+import CommiteeCards from "@/components/CommitteeCards";
 
 const CommitteeTree = React.lazy(() => import("../component/CommitteeTree"));
 
@@ -16,12 +17,13 @@ const gallery = () => (
     <React.Suspense fallback={<div>Loading...</div>}>
     
       <div className="flex flex-col items-center justify-center bg-custom-bg p-2"> 
-      
-        <CommitteeTree onSelect={function (committee: string): void {
+        <CommiteeCards/>
+        {/* <CommitteeTree onSelect={function (committee: string): void {
           throw new Error("Function not implemented.");
-        } }/>
+        } }/> */}
       </div>
     </React.Suspense>
+   
     
     <div>
       <Footer />

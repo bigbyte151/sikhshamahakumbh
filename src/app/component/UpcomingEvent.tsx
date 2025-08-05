@@ -12,6 +12,12 @@ interface Event {
 // JSON data
 const events: Event[] = [
   {
+    title: "Classroom to Society: Building a Healthier World through Education",
+    date: "31st October – 2nd November 2025",
+    venue: "NIPER Mohali",
+    link: "/registration/Single_Registration"
+  },
+  {
     title: "Shiksha Mahakumbh 2025",
     date: "Will be updated soon",
     venue: "Jawaharlal Nehru University",
@@ -36,7 +42,7 @@ const UpcomingEvent: React.FC<UpcomingEventProps> = ({ events }) => {
   return (
     <div className="p-2 mt-4 h-auto min-h-[70vh]">
       <h2 className="text-2xl text-center font-bold mb-4 text-primary">Our Upcoming Events</h2>
-      <div className="overflow-x-auto mb-6">
+      <div className="overflow-x-auto mb-6 m-auto max-w-[1400px]">
         <table className="w-auto table-auto py-2 border-s-violet-300">
           <thead>
             <tr className="bg-primary">
