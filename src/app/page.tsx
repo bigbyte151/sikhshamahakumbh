@@ -19,8 +19,8 @@ const slides1 = [
   {
     src: "/2024M/pp1.jpeg",
     alt: "Image 1",
-    // legend:
-    //   'Release of the official abstract booklet "Indian Education for Global Development" ',
+    legend:
+      '" ',
   },
   {
     src: "/2024M/Press8.jpg",
