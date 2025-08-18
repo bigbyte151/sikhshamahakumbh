@@ -15,144 +15,112 @@ import { CustomCard } from "./component/card";
 import Announcement from "./component/Annoucement";
 import UpcomingEvent from "./component/UpcomingEvent";
 import NoticeBoard from "./component/NoticeBoard";
-
 const slides1 = [
   {
     src: "/2024M/pp1.jpeg",
-    alt: "Shikshamahakumbh2025 Image",
-    legend: "Shikshamahakumbh2025",
-    width: 1200,
-    height: 800,
+    alt: "Image 1",
+    legend:
+      '" ',
   },
   {
     src: "/2024M/Press8.jpg",
-    alt: "Abstract booklet release",
+    alt: "Image 1",
     legend:
-      'Release of the official abstract booklet "Indian Education for Global Development"',
-    width: 1200,
-    height: 800,
+      'Release of the official abstract booklet "Indian Education for Global Development" ',
   },
   {
     src: "/2024M/Press7.jpg",
-    alt: "Event inauguration",
-    legend: "Swami Gyananand inaugurated the event by lighting the jyoti",
-    width: 1200,
-    height: 800,
+    alt: "Image 1",
+    legend:
+      "Swami Gyananand inaugrated the event by lighting the jyoti ",
   },
   {
     src: "/2024M/Press6.jpg",
-    alt: "Press conference",
-    legend: "Final closing press conference for the Shiksha Mahakumbh 2.0",
-    width: 1200,
-    height: 800,
+    alt: "Image 1",
+    legend:
+      "Final closing press conference for the Shiksha Mhakumbh 2.0",
   },
   {
     src: "/2024M/baton/baton1.jpg",
-    alt: "Baton ceremony",
-    legend: "Baton Ceremony Shiksha Mahakumbh 2024",
-    width: 1200,
-    height: 800,
+    alt: "Image 1",
+    legend:
+      "Baton Ceremony Shiksha Mahakumbh 2024",
   },
   {
     src: "/2024K/k6.jpg",
-    alt: "Presidential invitation",
+    alt: "Image 1",
     legend:
-      "Prof. Rajeev Ahuja and Dr. Thakur SKR invited Smt. Droupadi Murmu, the Hon'ble President of Bharat, for the Shiksha Mahakumbh 2024",
-    width: 1200,
-    height: 800,
+      "Prof. Rajeev Ahuja and Dr. Thakur SKR invited Smt. Droupadi Murmu, the Hon’ble President of Bharat, for the Shiksha Mahakumbh 2024",
   },
   {
     src: "/2023M/up_cm.jpg",
-    alt: "Chief Minister invitation",
+    alt: "Image 1",
     legend:
-      "Shiksha Mahakumbh team inviting Hon'ble Chief Minister, UP to 2nd Edition",
-    width: 1200,
-    height: 800,
+      "Shiksha Mahakumbh team inviting Hon’ble Chief Minister, UP to 2nd Edition",
   },
   {
     src: "/2023M/banwari_lal_purohit.JPG",
-    alt: "Governor Punjab address",
+    alt: "Image 1",
     legend:
       "Shri Banwari Lal Purohit, the Hon'ble Governor of Punjab, addressed the crowd",
-    width: 1200,
-    height: 800,
   },
   {
     src: "/2023M/bandaru_dattareya.jpg",
-    alt: "Governor Haryana address",
+    alt: "Image 1",
     legend:
       "Shri Bandaru Dattatreya, the Hon'ble Governor of Haryana, addressed the crowd",
-    width: 1200,
-    height: 800,
   },
   {
     src: "/2023M/anurag_singh_thakur.JPG",
-    alt: "Cabinet Minister address",
+    alt: "Image 1",
     legend:
-      "Shri Anurag Singh Thakur, the Hon'ble Cabinet Minister, Minister of Sports and Youth Affairs, addressed the crowd",
-    width: 1200,
-    height: 800,
+      "Shri Anurag Singh Thakur, the Hon'ble Cabinet Minister, Minister of Sports and Youth Affair, addressed the crowd",
   },
   {
     src: "/2023M/raghunandan.JPG",
-    alt: "Vidya Bharti Secretary",
+    alt: "Image 1",
     legend:
       "Shri Raghunandan, Organising Secretary, Vidya Bharti - Ucch Shiksha Sansthan",
-    width: 1200,
-    height: 800,
   },
   {
     src: "/2023M/shankarananda.JPG",
-    alt: "Bhartiya Shikshan Mandal Secretary",
+    alt: "Image 1",
     legend:
       "Shri Shankarananda, Organising Secretary, Bhartiya Shikshan Mandal",
-    width: 1200,
-    height: 800,
   },
+
   {
     src: "/2023M/kashmiri_lal.JPG",
-    alt: "Swadeshi Jagran Manch Secretary",
-    legend:
-      "Shri Kashmiri Lal, Organising Secretary, Swadeshi Jagran Manch",
-    width: 1200,
-    height: 800,
+    alt: "Image 1",
+    legend: "Shri Kashmiri Lal, Organising Secretary, Swadeshi Jagran Manch",
   },
   {
     src: "/2023M/satish_kumar.JPG",
-    alt: "Joint Secretary Swadeshi Jagran Manch",
+    alt: "Image 1",
     legend:
       "Shri Satish Kumar, Joint Organising Secretary, Swadeshi Jagran Manch",
-    width: 1200,
-    height: 800,
   },
+
   {
     src: "/2023K/bandaru_dattareya.JPG",
-    alt: "Proceeding release ceremony",
+    alt: "Image 1",
     legend:
-      "Shri Bandaru Dattatreya, the Hon'ble Governor of Haryana, released the proceedings of Shiksha Kumbh 2023",
-    width: 1200,
-    height: 800,
+      "Shri Bandaru Dattatreya, the Hon'ble Governor of Haryana, released the proceeding of Shiksha Kumbh 2023",
   },
   {
     src: "/2023K/Shri Aswini Updhaya.JPG",
-    alt: "PIL advocate address",
-    legend: "Adv. Aswini Upadhyay, PIL Man of Bharat, addressed the crowd",
-    width: 1200,
-    height: 800,
+    alt: "Image 1",
+    legend: "Adv. Aswini Updhaya, PIL Man  of Bharat, addressed the crowd",
   },
   {
     src: "/2024K/k12.png",
-    alt: "Lieutenant Governor J&K",
-    legend: "Shri Manoj Sinha, Hon'ble Lieutenant Governor, J&K",
-    width: 1200,
-    height: 800,
+    alt: "Image 1",
+    legend: "Shri Manoj Sinha, Hon’ble Lieutenant Governor, J&K",
   },
   {
     src: "/2024K/k7.png",
-    alt: "Minister of Science and Technology",
-    legend: "Dr. Jitendra Singh, Hon'ble MoS (IC), Science and Technology",
-    width: 1200,
-    height: 800,
+    alt: "Image 1",
+    legend: "Dr. Jitendra Singh, Hon’ble MoS (IC), Science and Technology",
   },
 ];
 
@@ -167,11 +135,9 @@ const pageTransition = {
   duration: 0.8,
 };
 
-interface TransitionWrapperProps {
-  children: React.ReactNode;
-}
-
-const TransitionWrapper = React.memo(({ children }: TransitionWrapperProps) => {
+const TransitionWrapper: React.FC<{ children: React.ReactNode }> = ({
+  children,
+}) => {
   const { ref, inView } = useInView({
     triggerOnce: false,
     threshold: 0.1,
@@ -188,10 +154,9 @@ const TransitionWrapper = React.memo(({ children }: TransitionWrapperProps) => {
       {children}
     </motion.div>
   );
-});
-TransitionWrapper.displayName = "TransitionWrapper";
+};
 
-const MobileView = React.memo(() => (
+const MobileView = () => (
   <div className="flex flex-col space-y-4 items-center">
     <div className="flex flex-col w-full">
       <div className="flex items-center justify-center">
@@ -203,6 +168,7 @@ const MobileView = React.memo(() => (
         <Announcement />
       </div>
       <TransitionWrapper>
+        
         <NoticeBoard />
       </TransitionWrapper>
     </div>
@@ -226,13 +192,14 @@ const MobileView = React.memo(() => (
         <Organiger />
       </TransitionWrapper>
     </div>
+    
   </div>
-));
-MobileView.displayName = "MobileView";
+);
 
-const DesktopView = React.memo(() => (
-  <div className="flex flex-col items-center space-y-4">
-    <div className="flex w-full">
+const DesktopView = () => (
+  <div className="flex flex-col items-center space-x-4">
+    <div className="w-1/5"></div>
+    <div className="flex ">
       <div className="w-1/5 flex items-center justify-center">
         <Announcement />
       </div>
@@ -241,13 +208,13 @@ const DesktopView = React.memo(() => (
           <SlideShow slides={slides1} />
         </TransitionWrapper>
       </div>
-      <div className="w-1/5 flex items-center justify-center">
+      <div className="w-1/4 flex items-center justify-center">
         <TransitionWrapper>
           <NoticeBoard />
         </TransitionWrapper>
       </div>
     </div>
-    <div className="w-full max-w-6xl px-4">
+    <div className="w-3/5">
       <TransitionWrapper>
         <Info />
       </TransitionWrapper>
@@ -262,23 +229,23 @@ const DesktopView = React.memo(() => (
       </TransitionWrapper>
     </div>
   </div>
-));
-DesktopView.displayName = "DesktopView";
+);
 
 export default function Home() {
   return (
-    <div className="bg-white min-h-screen">
+    <div className="bg-white">
       <CompanyInfo />
       <NavBar />
       <Marquees />
-      <main className="container mx-auto px-4">
+
+      <div>
         <div className="sm:hidden">
           <MobileView />
         </div>
         <div className="hidden sm:block">
           <DesktopView />
         </div>
-      </main>
+      </div>
       <Footer />
     </div>
   );
