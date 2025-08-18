@@ -21,91 +21,138 @@ const slides1 = [
     src: "/2024M/pp1.jpeg",
     alt: "Shikshamahakumbh2025 Image",
     legend: "Shikshamahakumbh2025",
+    width: 1200,
+    height: 800,
   },
   {
     src: "/2024M/Press8.jpg",
     alt: "Abstract booklet release",
-    legend: 'Release of the official abstract booklet "Indian Education for Global Development"',
+    legend:
+      'Release of the official abstract booklet "Indian Education for Global Development"',
+    width: 1200,
+    height: 800,
   },
   {
     src: "/2024M/Press7.jpg",
     alt: "Event inauguration",
     legend: "Swami Gyananand inaugurated the event by lighting the jyoti",
+    width: 1200,
+    height: 800,
   },
   {
     src: "/2024M/Press6.jpg",
     alt: "Press conference",
     legend: "Final closing press conference for the Shiksha Mahakumbh 2.0",
+    width: 1200,
+    height: 800,
   },
   {
     src: "/2024M/baton/baton1.jpg",
     alt: "Baton ceremony",
     legend: "Baton Ceremony Shiksha Mahakumbh 2024",
+    width: 1200,
+    height: 800,
   },
   {
     src: "/2024K/k6.jpg",
     alt: "Presidential invitation",
-    legend: "Prof. Rajeev Ahuja and Dr. Thakur SKR invited Smt. Droupadi Murmu, the Hon'ble President of Bharat, for the Shiksha Mahakumbh 2024",
+    legend:
+      "Prof. Rajeev Ahuja and Dr. Thakur SKR invited Smt. Droupadi Murmu, the Hon'ble President of Bharat, for the Shiksha Mahakumbh 2024",
+    width: 1200,
+    height: 800,
   },
   {
     src: "/2023M/up_cm.jpg",
     alt: "Chief Minister invitation",
-    legend: "Shiksha Mahakumbh team inviting Hon'ble Chief Minister, UP to 2nd Edition",
+    legend:
+      "Shiksha Mahakumbh team inviting Hon'ble Chief Minister, UP to 2nd Edition",
+    width: 1200,
+    height: 800,
   },
   {
     src: "/2023M/banwari_lal_purohit.JPG",
     alt: "Governor Punjab address",
-    legend: "Shri Banwari Lal Purohit, the Hon'ble Governor of Punjab, addressed the crowd",
+    legend:
+      "Shri Banwari Lal Purohit, the Hon'ble Governor of Punjab, addressed the crowd",
+    width: 1200,
+    height: 800,
   },
   {
     src: "/2023M/bandaru_dattareya.jpg",
     alt: "Governor Haryana address",
-    legend: "Shri Bandaru Dattatreya, the Hon'ble Governor of Haryana, addressed the crowd",
+    legend:
+      "Shri Bandaru Dattatreya, the Hon'ble Governor of Haryana, addressed the crowd",
+    width: 1200,
+    height: 800,
   },
   {
     src: "/2023M/anurag_singh_thakur.JPG",
     alt: "Cabinet Minister address",
-    legend: "Shri Anurag Singh Thakur, the Hon'ble Cabinet Minister, Minister of Sports and Youth Affairs, addressed the crowd",
+    legend:
+      "Shri Anurag Singh Thakur, the Hon'ble Cabinet Minister, Minister of Sports and Youth Affairs, addressed the crowd",
+    width: 1200,
+    height: 800,
   },
   {
     src: "/2023M/raghunandan.JPG",
     alt: "Vidya Bharti Secretary",
-    legend: "Shri Raghunandan, Organising Secretary, Vidya Bharti - Ucch Shiksha Sansthan",
+    legend:
+      "Shri Raghunandan, Organising Secretary, Vidya Bharti - Ucch Shiksha Sansthan",
+    width: 1200,
+    height: 800,
   },
   {
     src: "/2023M/shankarananda.JPG",
     alt: "Bhartiya Shikshan Mandal Secretary",
-    legend: "Shri Shankarananda, Organising Secretary, Bhartiya Shikshan Mandal",
+    legend:
+      "Shri Shankarananda, Organising Secretary, Bhartiya Shikshan Mandal",
+    width: 1200,
+    height: 800,
   },
   {
     src: "/2023M/kashmiri_lal.JPG",
     alt: "Swadeshi Jagran Manch Secretary",
-    legend: "Shri Kashmiri Lal, Organising Secretary, Swadeshi Jagran Manch",
+    legend:
+      "Shri Kashmiri Lal, Organising Secretary, Swadeshi Jagran Manch",
+    width: 1200,
+    height: 800,
   },
   {
     src: "/2023M/satish_kumar.JPG",
     alt: "Joint Secretary Swadeshi Jagran Manch",
-    legend: "Shri Satish Kumar, Joint Organising Secretary, Swadeshi Jagran Manch",
+    legend:
+      "Shri Satish Kumar, Joint Organising Secretary, Swadeshi Jagran Manch",
+    width: 1200,
+    height: 800,
   },
   {
     src: "/2023K/bandaru_dattareya.JPG",
     alt: "Proceeding release ceremony",
-    legend: "Shri Bandaru Dattatreya, the Hon'ble Governor of Haryana, released the proceedings of Shiksha Kumbh 2023",
+    legend:
+      "Shri Bandaru Dattatreya, the Hon'ble Governor of Haryana, released the proceedings of Shiksha Kumbh 2023",
+    width: 1200,
+    height: 800,
   },
   {
     src: "/2023K/Shri Aswini Updhaya.JPG",
     alt: "PIL advocate address",
     legend: "Adv. Aswini Upadhyay, PIL Man of Bharat, addressed the crowd",
+    width: 1200,
+    height: 800,
   },
   {
     src: "/2024K/k12.png",
     alt: "Lieutenant Governor J&K",
     legend: "Shri Manoj Sinha, Hon'ble Lieutenant Governor, J&K",
+    width: 1200,
+    height: 800,
   },
   {
     src: "/2024K/k7.png",
     alt: "Minister of Science and Technology",
     legend: "Dr. Jitendra Singh, Hon'ble MoS (IC), Science and Technology",
+    width: 1200,
+    height: 800,
   },
 ];
 
@@ -142,8 +189,7 @@ const TransitionWrapper = React.memo(({ children }: TransitionWrapperProps) => {
     </motion.div>
   );
 });
-
-TransitionWrapper.displayName = 'TransitionWrapper';
+TransitionWrapper.displayName = "TransitionWrapper";
 
 const MobileView = React.memo(() => (
   <div className="flex flex-col space-y-4 items-center">
@@ -182,8 +228,7 @@ const MobileView = React.memo(() => (
     </div>
   </div>
 ));
-
-MobileView.displayName = 'MobileView';
+MobileView.displayName = "MobileView";
 
 const DesktopView = React.memo(() => (
   <div className="flex flex-col items-center space-y-4">
@@ -218,8 +263,7 @@ const DesktopView = React.memo(() => (
     </div>
   </div>
 ));
-
-DesktopView.displayName = 'DesktopView';
+DesktopView.displayName = "DesktopView";
 
 export default function Home() {
   return (
