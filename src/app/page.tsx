@@ -120,7 +120,11 @@ const pageTransition = {
   duration: 0.8,
 };
 
-const TransitionWrapper = React.memo(({ children }) => {
+interface TransitionWrapperProps {
+  children: React.ReactNode;
+}
+
+const TransitionWrapper = React.memo(({ children }: TransitionWrapperProps) => {
   const { ref, inView } = useInView({
     triggerOnce: false,
     threshold: 0.1,
