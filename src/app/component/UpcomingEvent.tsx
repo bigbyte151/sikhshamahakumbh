@@ -15,7 +15,7 @@ const events: Event[] = [
     title: "Classroom to Society: Building a Healthier World through Education",
     date: "31st October – 2nd November 2025",
     venue: "NIPER Mohali",
-    link: "/registration/Single_Registration"
+    link: "https://shikshamahakumb.co.in/registration"
   },
   {
     title: "Shiksha Mahakumbh 2025",
