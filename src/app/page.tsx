@@ -17,7 +17,13 @@ import UpcomingEvent from "./component/UpcomingEvent";
 import NoticeBoard from "./component/NoticeBoard";
 const slides1 = [
   {
-    src: "/2024M/pp1.jpeg",
+    src: "/2024M/pp2.jpeg",
+    alt: "Image 1",
+    legend:
+      ' ',
+  },
+  {
+    src: "/2024M/pp3.jpeg",
     alt: "Image 1",
     legend:
       ' ',
