@@ -66,7 +66,7 @@ const Announcement = () => {
          <h2 className="mb-4 text-l font-semibold">Register to Participate in Shiksha Mahakumbh 2025</h2>
           <button 
             className="px-4 py-2 bg-primary text-white rounded hover:bg-white hover:text-primary"
-            onClick={() => window.location.href = '/registration/Single_Registration'}>
+            onClick={() => window.location.href = 'https://shikshamahakumb.co.in/registration'}>
             Click Here
           </button>
 
