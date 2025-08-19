@@ -12,7 +12,7 @@ const NavBar: React.FC = () => {
   const menus: Menu[] = [
     { path: "/", title: "Home" },
     {
-      path: "/registration/Single_Registration",
+      path: "https://shikshamahakumb.co.in/registration",
       title: "Registration",
     },
     {
